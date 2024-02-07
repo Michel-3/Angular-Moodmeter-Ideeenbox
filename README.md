@@ -1,22 +1,30 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Moodmeter en Ideeënbox
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Dit is een Angular-applicatie genaamd Moodmeter en Ideeënbox, ontwikkeld tijdens mijn stage bij SnelStart.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Inleiding
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Moodmeter en Ideeënbox is een webapplicatie waarmee gebruikers hun humeur kunnen bijhouden en ideeën kunnen opslaan en delen met anderen.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Setup
 
-test
+Volg deze instructies om de applicatie lokaal op te zetten en te draaien.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS-versie aanbevolen)
+- [Angular CLI](https://angular.io/cli) (globaal geïnstalleerd)
+
+### Installatie
+
+1. Clone de repository.
+   ```bash
+   git clone https://github.com/jouw-gebruikersnaam/moodmeter-en-ideeenbox.git
+2. Navigeer naar de projectmap.  
+   cd moodmeter-en-ideeenbox
+3. Installeer de afhankelijkheden.  
+   npm install
+
+### Ontwikkelserver  
+Gebruik de Angular CLI om de ontwikkelserver te starten.  
+ng serve
